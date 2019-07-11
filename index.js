@@ -21,4 +21,9 @@ var sentence = 'good afternoon, mr mike.';
 // 完成下面程序，将money变量中的金额提取出来，输出：20。
 var money = '￥20';
 //TODO write your code here...
-
+function subStr(val){
+	val = val.substring(1);
+	val = parseFloat(val);
+	return val;
+}
+console.log(subStr(money));
